@@ -22,7 +22,9 @@
 		
 		$ npm run start
 		
-		Usage
+
+Usage
+
 On the Create page we can create an NFT and put it up for sale. To do this we need to 1. Upload a picture in any format. 2. Enter data about title, description and price. 3. Click on the button "create". Next you need to confirm all requests from metamask.
 
 Next, on the Home page we should see all NFTs available for sale. There we can buy one of them by clicking on the button "buy".
