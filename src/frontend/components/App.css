@@ -1,0 +1,250 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    background-color: #040404;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 14px;
+    border: 1px solid #00d54a;
+    border-radius: 20px;
+    color: #00d54a;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main h2 {
+    color: #00d54a;
+}
+
+.navbar-nav {
+    column-gap: 25px;
+}
+
+.connectmeta {
+    color: #00d54a;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.content {
+    width: 600px;
+}
+
+.content Button {
+    background-color: #100f17;
+    color: azure;
+    width: 100%;
+}
+
+.content Button:hover {
+    background-color: #ffffff;
+    color: #100f17;
+    transition: 0.4s ease;
+    width: 100%;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #131313;
+    color: azure;
+    transition: 0.4s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.19);
+    transition: 0.4s all;
+}
+
+.card-img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.d-grid button {
+    background-color: #131313;
+    color: #00d54a;
+    width: 100%;
+}
+
+.d-grid button:hover {
+    background-color: #100f17;
+    color: azure;
+    border: 1px solid #100f17;
+}
+
+.d-grid button:target {
+    border: 1px solid #100f17;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name {
+    text-align: start;
+}
+
+.card-price {
+    text-align: start;
+}
+
+.card-desc {
+    text-align: start;
+}
+
+.card-of-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #C6C2C6;
+}
+
+.purcha {
+    margin: 14px 0;
+}
+
+.container h2 {
+    text-align: start;
+    color: azure;
+    padding-left: 80px;
+}
+
+
+/* ========================== */
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    column-gap: 2px;
+}
+
+.nav-icons {
+    height: 14px;
+    width: 14px;
+}
+
+.nav-icons img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.nav-icons-spec {
+    height: 17.5px;
+    width: 17.5px;
+}
+
+.navbar {
+    height: 67px;
+    background-color: #131313;
+}
+
+
+/* 00d54a 131313 040404 c7d3bc */
+
+.navbarbtn {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    column-gap: 7px;
+    color: #00d54a;
+    border: 1px solid #00d54a;
+}
+
+.navbarbtn:hover {
+    color: #040404;
+}
+
+.navbarbtn img {
+    width: 18px;
+}
+
+.form-label {
+    text-align: right;
+    color: white;
+}
+
+.form-control-plaintext {
+    padding: 4px 0.8rem;
+    color: white;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    background: #040404;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+}
+
+.content Button {
+    background-color: #040404;
+    color: #00d54a;
+}
+
+.card-imgeba {
+    overflow: hidden;
+    border-radius: 20px;
+}
